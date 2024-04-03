@@ -12,4 +12,4 @@ elif imc>=18.5:
     estado="peso saludable"
 else:
     estado="peso insuficiente"
-print(f"Su imc es de {imc} y se encuentra en un estado de {estado}")
+print(f"Su imc es de {imc} y se encuentra en un estado de {estado}. Su peso ideal seria de {21.7*(altura**2)}")
